@@ -18,116 +18,141 @@
   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Custom CSS -->
-  <style>
-    body {
-      padding-top: 56px;
-    }
-    .navbar {
-      background-color: #343a40;
-    }
-    .navbar-brand {
-      font-size: 1.5rem;
-    }
-    .nav-link {
-      color: #fff !important;
-    }
-    .nav-link:hover {
-      color: #ffc107 !important;
-    }
-    .container h1, .container h2 {
-      color: #343a40;
-    }
-    .footer {
-      background-color: #343a40;
-      color: #fff;
-    }
-    .footer a {
-      color: #ffc107;
-    }
-    .footer a:hover {
-      color: #fff;
-    }
-  </style>
+  <!-- Bootstrap Icons -->
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      referrerpolicy="no-referrer" rel="stylesheet" />
+
+
+
 
   <title>Government Preparation</title>
 </head>
 <body>
+  <!-- Navbar -->
   <div> 
-    <nav class="navbar navbar-expand-lg fixed-top">      
-      <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold" href="#">AKTU SAMARTH</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Aktu Result</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Syllabus
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">First Year Common</a></li>
-                <li><a class="dropdown-item" href="#">CS/IT</a></li>
-                <li><a class="dropdown-item" href="#">ECE</a></li>
-                <li><a class="dropdown-item" href="#">ME</a></li>
-                <li><a class="dropdown-item" href="#">Civil</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Quantum
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">First Year[Common]</a></li>
-                <li><a class="dropdown-item" href="#">CS/IT</a></li>
-                <li><a class="dropdown-item" href="#">ECE</a></li>
-                <li><a class="dropdown-item" href="#">ME</a></li>
-                <li><a class="dropdown-item" href="#">Civil</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                PYQ
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">First Year[Common]</a></li>
-                <li><a class="dropdown-item" href="#">CS/IT</a></li>
-                <li><a class="dropdown-item" href="#">ECE</a></li>
-                <li><a class="dropdown-item" href="#">ME</a></li>
-                <li><a class="dropdown-item" href="#">Civil</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Placement Preparation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/government.html">Government Preparation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar bg-body-tertiary navbar-expand-lg  fixed-top" data-bs-theme="dark">      
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold" href="#">AKTU SAMARTH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="/government.html">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Aktu Result</a>
+          </li> -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Syllabus
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">UPSE</a></li>
+              <li class="dropdown"><a class="dropdown-item " href="#">Defence</a></li>
+              <li><a class="dropdown-item" href="#">Banking</a></li>
+              <li><a class="dropdown-item" href="#">Railway</a></li>
+              <li><a class="dropdown-item" href="#">SSC</a></li>
+              <li><a class="dropdown-item" href="#">GATE</a></li>
+              <li><a class="dropdown-item" href="#">CA</a></li>
+              <li><a class="dropdown-item" href="#">CLAT</a></li>
+              <li><a class="dropdown-item" href="#">NEET</a></li>
+              <li><a class="dropdown-item" href="#">JEE</a></li>
+              <li><a class="dropdown-item" href="#">UP Board</a></li>
+              <li><a class="dropdown-item" href="#">CBSE Board</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Previous Paper
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">UPSE</a></li>
+              <li class="dropdown"><a class="dropdown-item " href="#">Defence</a></li>
+              <li><a class="dropdown-item" href="#">Banking</a></li>
+              <li><a class="dropdown-item" href="#">Railway</a></li>
+              <li><a class="dropdown-item" href="#">SSC</a></li>
+              <li><a class="dropdown-item" href="#">GATE</a></li>
+              <li><a class="dropdown-item" href="#">CA</a></li>
+              <li><a class="dropdown-item" href="#">CLAT</a></li>
+              <li><a class="dropdown-item" href="#">NEET</a></li>
+              <li><a class="dropdown-item" href="#">JEE</a></li>
+              <li><a class="dropdown-item" href="#">UP Board</a></li>
+              <li><a class="dropdown-item" href="#">CBSE Board</a></li>
+            </ul>
+          </li>
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Quantum
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">First Year[Common]</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-item " href="#">CS/IT</a>
+              </li>
+              <li><a class="dropdown-item" href="#">ECE</a></li>
+              <li><a class="dropdown-item" href="#">ME</a></li>
+              <li><a class="dropdown-item" href="#">Civil</a></li>
+            </ul>
+          </li> -->
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PYQ
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">First Year[Comman]</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-item " href="#">CS/IT</a>
+              </li>
+              <li><a class="dropdown-item" href="#">ECE</a></li>
+              <li><a class="dropdown-item" href="#">ME</a></li>
+              <li><a class="dropdown-item" href="#">Civil</a></li>
+            </ul>
+          </li> -->
+
+
+          <!-- Placement Preparation-->
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Preparation</a>
+          </li>
+          <!-- Government Jobs-->
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/government.html">Government Jobs</a>
+          </li>
+
+          <!-- About Us-->
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/about.html">About Us</a>
+          </li>
+
+          <!-- Contact Us-->
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
+</div>
 
  
   <!-- Carousel -->
+   <div class="mt-5">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -166,6 +191,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+</div>
 
   <!-- Exam Updates -->
   <div class="container mt-5">
@@ -205,22 +231,62 @@
   </div>
 
   <!-- Exam Categories -->
-  <div class="container mt-5">
+  <div class="container my-5">
     <h2 class="text-center">Exam Categories</h2>
     <div class="row mt-4">
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+          <img src="/assets/government/images/upse.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">SSC</h5>
+            <h5 class="card-title">UPSE</h5>
+            <p class="card-text">Details about UPSE exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/defence.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Defence Exam</h5>
+            <p class="card-text">Details about Defence exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/banking.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Banking EXAM</h5>
+            <p class="card-text">Details about Banking exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/ssc.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SSC EXAM</h5>
             <p class="card-text">Details about SSC exams.</p>
             <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+          <img src="/assets/government/images/railway.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Railway EXAM</h5>
+            <p class="card-text">Details about Railway exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/gate.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">GATE</h5>
             <p class="card-text">Details about GATE exams.</p>
@@ -228,22 +294,62 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+          <img src="/assets/government/images/ca.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CA</h5>
+            <p class="card-text">Details about CA exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/clat.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CLAT EXAM</h5>
+            <p class="card-text">Details about CLAT exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/neet.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">NEET</h5>
+            <p class="card-text">Details about NEET exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/jee.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">JEE</h5>
             <p class="card-text">Details about JEE exams.</p>
             <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
+      </div> 
+      <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+          <img src="/assets/government/images/up.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">IIT</h5>
-            <p class="card-text">Details about IIT exams.</p>
+            <h5 class="card-title">UP Board</h5>
+            <p class="card-text">Details about UP Board exams.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="/assets/government/images/cbse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CBSE Board</h5>
+            <p class="card-text">Details about CBSE exams.</p>
             <a href="#" class="btn btn-primary">Read More</a>
           </div>
         </div>
@@ -252,54 +358,56 @@
   </div>
 
   <!-- Footer -->
-  <footer class="footer container-fluid py-5">
+  <footer class="container-fluid py-5 bg-body-secondary ">
     <div class="container">
-      <div class="row">
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-          </ul>
-        </div>
+    <div class="row">
+      
+      <div class="col-6 col-md">
+        <h5>AKTU SAMARTH</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="mailto:info@aktusamarth.com"><i class="fa-solid fa-envelope me-2"></i>info@aktusamarth.com</a></li>
+        </ul>
       </div>
-      <div class="row">
-        <div class="col-12 text-center pt-4">
-          <h5>© Copyright 2025 Designed & Developed By AKTU SADAM</h5>
-        </div>
+      <div class="col-6 col-md">
+        <h5>Our Services</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="#">Exam Result</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Exam Syllabus</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Previous Year's Paper</a></li>
+          <!-- <li><a class="link-secondary text-decoration-none" href="#">Quantum Books</a></li> -->
+          <li><a class="link-secondary text-decoration-none" href="#">Preparation</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Government Jobs</a></li>
+          <!-- <li><a class="link-secondary text-decoration-none" href="#"></a></li> -->
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Usefull Links</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary text-decoration-none" href="/index.html">Home</a></li>
+          <li><a class="link-secondary text-decoration-none" href="/about.html">About Us</a></li>
+          <li><a class="link-secondary text-decoration-none" href="/contact.html">Contact Us</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Terms & Conditions</a></li>
+          <li><a class="link-secondary text-decoration-none" href="#">Privacy & Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Follow Us</h5>
+        <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f me-2"></i> Facebook</a></li>
+            <li><a class="link-secondary text-decoration-none" href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter me-2"></i> Twitter</a></li>
+            <li><a class="link-secondary text-decoration-none" href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram me-2"></i> Instagram</a></li>
+            <li><a class="link-secondary text-decoration-none" href="https://www.linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in me-2"></i> LinkedIn</a></li>
+        </ul>
       </div>
     </div>
+    <div class="row">
+      <div class="col-12 text-center pt-4">
+        <h5>© Copyright 2025 Designed & Developed By AKTU SADAM</h5>
+      </div>
+      
+  </div>
+
+  </div>
   </footer>
   <!-- Footer End -->
 </body>
